@@ -1,5 +1,9 @@
-name: Build Single Popular App
+name: 'Build radarbox'
 on:
+  push:
+    branches:
+      - main
+
   workflow_dispatch:
     inputs:
       name:
